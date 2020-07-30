@@ -14,8 +14,14 @@ class AboutUs extends Component {
                  <div className="container-fluid" style={{backgroundColor:'#f4f7ff'}}>  
             <div className="row">
                 <div className="col-sm-4 d-flex justify-content-center">
-                <img src="/images/home/mask.svg"/>
-                <a className=" logo-font" style={{color: '#000000'}} href="#">OWLE</a>
+                <div className="row">
+                        <div className='col-sm-6'>
+                        <img style={{position:'absolute', marginTop:'15px'}} src="/images/home/mask.svg"/>
+                        </div>
+                        <div className='col-sm-6 d-flex justify-content-end'>
+                        <a className=" logo-font" style={{color:'#000000'}} href="#">OWLE</a>
+                            </div>
+                    </div>
                 </div>
                 <div className="col-sm-8  d-flex justify-content-end">
                 <nav className="navbar navbar-expand-lg navbar-light">
