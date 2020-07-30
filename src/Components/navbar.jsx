@@ -16,7 +16,7 @@ class Navbar extends Component {
             <div className="row">
                 <div className="col-sm-4 d-flex justify-content-center">
                 <img src="/images/home/mask.svg"/>
-                <a className=" logo-font" style={{color: this.props.color}} href="#">OWLE</a>
+                <a className=" logo-font" style={{color:'#000000'}} href="#">OWLE</a>
                 </div>
                 <div className="col-sm-8 d-flex justify-content-end ">
                 <nav className="navbar navbar-expand-lg navbar-light">

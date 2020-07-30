@@ -6,6 +6,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter,Route,Switch} from 'react-router-dom';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.css';
 import './fonts/Montserrat-Bold.ttf';
 import './fonts/Montserrat-Medium.ttf';
