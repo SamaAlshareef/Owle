@@ -1,0 +1,490 @@
+.nav-font{
+    text-align: right;
+    font-size: 18px;
+    font-family:"Montserrat-Medium";
+    letter-spacing: -0.38px;
+    color: #000000;
+    opacity: 1;
+    margin-right: 45px;
+}
+.logo-font{
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: left;
+    font-size: 29px;
+    font-family:"Montserrat-Bold";
+    letter-spacing: -0.5px;
+    color: #575757;
+    opacity: 1;
+}
+.header-font{
+    text-align: left;
+    font-size: 64px;
+    font-family: "Montserrat-Bold";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.header-font2{
+    text-align: left;
+    font-size: 50px;
+    font-family: "Montserrat-Bold";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.slider{
+    background: transparent linear-gradient(219deg, #189AFE 0%, #2D62FC 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    top: 0px;
+    left: 556px;
+    width: 811px;
+}
+.slider-prop{
+    padding-top: 249px;
+    padding-bottom: 181px;
+}
+.slider-content-font{
+    text-align: left;
+    font-size: 18px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.8;
+    /* display: inline-block; */
+}
+.slider-btn{
+    text-align: left;
+    font-size: 20px;
+    font-family: "Montserrat-Medium";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.arrow{
+    /* background: #189AFE 0% 0% no-repeat padding-box; */
+    border: 1px solid #189AFE;
+    opacity: 1;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    
+}
+.right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.arrow-down{
+   height:auto;
+   width: 100%;
+   max-height: 10px;
+   max-width: 15px;
+    
+}
+.macbook{
+    /* top: 255px;
+    left: 1023px;
+    width: 445px;
+    height: 292px;
+    background: transparent url('img/3763090.png') 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1; */
+}
+.bambo{
+    top: 252px;
+    left: 983px;
+    width: 524px;
+    height: 319px;
+    background: transparent url('./vippng.com-bamboo-tree-png-1083369.png') 0% 0% no-repeat padding-box;
+    box-shadow: -10px 10px 30px #00000029;
+    opacity: 1;
+}
+.plant{
+top: 1084px;
+left: 583px;
+width: 153px;
+height: 153px;
+background: transparent url('/netclipart.com-flower-pot-clipart-331427.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.img-prop{
+    width: 100%;
+    height:auto ;
+    max-width: 644px;
+}
+.home-content-prop{
+    padding-left: 100px;
+    padding-bottom: 100px;
+
+}
+.plans-card{
+    top: 2478px;
+    left: 1018px;
+    width: 100%;
+    height: auto;
+    max-width: 248px;
+    max-height: 347px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #B9B9B96B;
+    border-radius: 20px;
+    opacity: 1;
+}
+.card-title-font{
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 25px;
+    font: "Montserrat-Medium";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.card-title-font2{
+    margin-top: 35px;
+    margin-left: 5px;
+    text-align: left;
+    font-size: 16px;
+    font-family:"Montserrat-Regular" ;
+    letter-spacing: 0px;
+    color: #00000080;
+}
+.card-subtitle-font{
+    margin-left: 25px;
+    margin-bottom: 40px;
+    text-align: left;
+    font-size: 20px;
+    font: "Montserrat-Medium";
+    letter-spacing: 0px;
+    color: #575757;
+    opacity: 1;
+}
+.card-options{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.card-btn{
+    position: absolute;
+    background: #2D62FC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #2D62FC4D;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 214px;
+    max-height: 45px;
+    border-color: #2D62FC;
+   
+   
+   
+}
+.card-btn-font{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Montserrat-Medium";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.card-rot-text{
+        transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        color:#189AFE;
+        font-family: "Montserrat-Light";
+        font-size: 45px;
+        margin-top: 70px;
+        padding-bottom: 40px;
+        
+}
+.card-header-font{
+    text-align: center;
+    font-size: 64px;
+    font-family: "Montserrat-Bold";
+    /* color: #189AFE; */
+    background: -webkit-linear-gradient(#189AFE, #2D62FC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-custom{
+    background-color: #575757;
+    height: 324px !important;
+    max-width: 100% !important;
+    height: auto !important;
+
+}
+.footer-title-font{
+    margin-top: 40px;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Montserrat-Medium";
+    letter-spacing: -0.42px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.footer-content-font{
+    text-align: left;
+    font-size: 18px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: -0.38px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.img-res{
+    max-width: 100% !important;
+    height: auto !important;
+}
+.footer-logo-font{
+    text-align: left;
+    font-size: 35px;
+    font-family:"Montserrat-Bold" ;
+    letter-spacing: -0.73px;
+    margin-right: 10px;
+    padding-bottom: -10px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.language-box{
+    max-width: 100%;
+    max-height: auto;
+    width: 121px;
+    height: 38px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    opacity: 1;
+}
+.lang-text{
+    text-align: left;
+    margin-left: 10px;
+   
+    font-size: 18px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: -0.38px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.login-title{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Montserrat-Bold";
+    letter-spacing: -0.63px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 41px;
+}
+.login-textbox{
+    
+    background-position: left;
+    max-width: 400px;
+    max-height: 58px;
+    width: 100%;
+    height: 100px;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #57575726;
+    border-radius: 5px;
+    opacity: 1;
+    /* border-color: #2D62FC; */
+}
+.login-btn{
+    max-width: 400px;
+    max-height: 58px;
+    width: 100%;
+    height: 58px;
+    background: #2D62FC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #2D62FC1A;
+    border-radius: 5px;
+    opacity: 1;
+}
+.forget-pass-font{
+    text-align: left;
+    font-size: 14px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.5;
+   
+
+    
+}
+.logWith{
+    
+    text-align: center;
+    font-size: 16px;
+    font-family: "Montserrat-Medium";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.with-cont{
+    width: 32px;
+    height: 32px;
+    margin-right: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #189AFE4D;
+    border-radius: 5px;
+    opacity: 1;
+}
+.comments-font{
+    text-align: left;
+    font-size: 18px;
+    font-family: "Montserrat-Medium";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.6;
+}
+.about-list-font{
+    text-align: left;
+    font-size: 18px;
+    font-family: "Montserrat-Medium";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 15px;
+}
+.textbox-font{
+    text-align: left;
+    font-size: 20px;
+    font-family: "Montserrat-Medium";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.icon-img {
+    background-image: url('./envelope.png');
+    /* position: cen; */
+    padding-left: 100px;
+    background-size: 25px;
+}
+.slider-bg-img{
+    background-image:  url('./Path 9@2x.png');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    position: absolute;
+}
+.about-content-font{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.8;
+}
+.about-box-container{
+    text-align: center;
+    width: 67px;
+    height: 67px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #189AFE33;
+    border-radius: 10px;
+    opacity: 1;
+}
+.img-res-icon{
+    max-width:64px !important;
+    height: auto !important;
+    max-height: 64px;
+    width: 100%;
+}
+.profile-pic-font{
+    text-align: center;
+    font-size: 18px;
+    font-family: "Montserrat-Medium";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.profile-pic-light-font{
+    text-align: center;
+    font-size: 16px;
+    font-family: "Montserrat-Light";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.bg-color-about{
+    background-color:#f4f7ff;
+    background: linear-gradient(to bottom, #f4f7ff 80%, white 20%); 
+
+}
+.register-now-font{
+    text-align: left;
+    font-size: 20px;
+    font-family:"Montserrat-Medium";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.home-bg-img{
+    background-image: url('./BlueShapeCombined.png');
+    background-size: 1054px 972px;
+    /* background-size:contain; */
+    background-repeat: no-repeat;
+    /* width: 200px; */
+    background-position: right top;
+    /* width: 100%;
+    height: auto; */
+}
+@media only screen and (max-width: 320px) {
+    /* styles for narrow screens */
+}
+.no-border {
+    border: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+.form-control:valid {
+    max-width: 400px;
+    max-height: 58px;
+    width: 100%;
+    height:100px;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #57575726;
+    border-radius: 5px;
+    opacity: 1;
+  }
+  .form-control2:valid  {
+    max-width: 400px;
+    max-height: 121px;
+    width: 100%;
+    height:100px;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #57575726;
+    border-radius: 5px;
+    opacity: 1;
+  }
+  input{
+    text-indent: 30px;
+  }
+  .fake-input { position: relative; width:400px; }
+  .fake-input input { border:none; background-color:#fff; display:block; width: 100%; box-sizing: border-box }
+.fake-input img { position: absolute; top: 23px; left: 5px }
+@media only screen and (min-width: 200px) {
+
+    p{ 
+       font-size:12px; 
+    }
+ 
+ }
+
+ .map-bg-img{
+    background-image: url('./map.png');
+    background-size: 1166px 487px;
+    /* background-size:contain; */
+    background-repeat: no-repeat;
+    /* width: 200px; */
+    background-position: center;
+    /* width: 100%;
+    height: auto; */
+}
+
+.send-btn{
+    box-shadow: 0px 0px 15px #2D62FC1A;
+    border-radius: 10px;
+    background: #2D62FC 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

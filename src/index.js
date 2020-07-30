@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Popper from 'popper.js';
+import $ from 'jquery';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {BrowserRouter,Route,Switch} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.css';
+import './fonts/Montserrat-Bold.ttf';
+import './fonts/Montserrat-Medium.ttf';
+import './fonts/Montserrat-Regular.ttf';
+import './fonts/Montserrat-Light.ttf';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
+    </BrowserRouter>,
   document.getElementById('root')
 );
 
