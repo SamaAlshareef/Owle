@@ -262,27 +262,33 @@ class Navbar extends Component {
                 </div>
 
                
-            </div>
+           
             <div className="row">
-            <div className="col-sm-12 d-flex flex-column justify-content-center">
-                    <p className="card-header-font" style={{marginTop:'157px'}}>Contact Us</p>
+                    <div className="col-sm-12 d-flex flex-column justify-content-center">
+                            <p className="card-header-font" style={{marginTop:'157px'}}>Contact Us</p>
+
+                    </div>
+                    <div className='col-sm-9'>
                     <div className='d-flex flex-row justify-content-center'>
-                    <img className='' height='478px' width='1166px' src='./images/home/map.png'/>
-                    <div className='d-flex justify-content-start' >
+                    <img className='img-res' height='478px' width='1166px' src='./images/home/map.png'/>
+                  
+                      </div>
+                      </div>  
+                    <div className='col-sm-3 '>
                     <form >
-                            <div class="form-group d-flex justify-content-center">
+                            <div class="form-group d-flex justify-content-start">
                             <div class="fake-input">
                                 <input type="name" className="form-control" id="exampleInputEmail1"  placeholder="Name"/>
                                 
                             </div>
                             </div>
-                            <div class="form-group d-flex justify-content-center">
+                            <div class="form-group d-flex justify-content-start">
                             <div class="fake-input">
                                 <input type="email" className="form-control" id="exampleInputEmail1"  placeholder="Email"/>
                                
                             </div>
                             </div>
-                            <div class="form-group d-flex justify-content-center">
+                            <div class="form-group d-flex justify-content-start">
                             <div class="fake-input">
                                 <input type="text" className="form-control" id="exampleInputEmail1" height='121px'  placeholder="Type your request"/>
                                
@@ -293,13 +299,8 @@ class Navbar extends Component {
                             <button type="submit" className="btn btn-primary textbox-font send-btn" >Send</button>   
                             </div>                  
                             </form>
-                    </div>
-                   
-                           
-                    </div>
-                    
-              
-                    </div>
+                        </div>
+                    </div>     
             </div>
              <Footer/>
              </React.Fragment>
