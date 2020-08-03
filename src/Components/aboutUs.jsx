@@ -90,7 +90,7 @@ class AboutUs extends Component {
                         <p className="about-list-font">Dolore magna aliquyam erat</p>
                         <div className="row">
                             <div className="col-sm-3 ">
-                                <img className="img-res about-box-container"  height="67px" width="67px" src='./images/about/project (1).svg'/>
+                                <img className="img-res about-box-container svg"  height="67px" width="67px" src='./images/about/project (1).svg'/>
                                 <p className="about-list-font">Performance</p>
                            </div>
                             <div className="col-sm-3 ">
@@ -120,43 +120,59 @@ class AboutUs extends Component {
                         <p className="card-header-font" > Our Team</p>
                         </div>
                         <div className="col-sm-4">
-                        <div className="d-flex justify-content-center">
-                        <img className="img-res" src='/images/about/Mask Group 4.svg'/>
+                        <div className="d-flex flex-row justify-content-center parent avatar-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="272.719" height="210.699" viewBox="0 0 272.719 210.699" >
+                        <path id="Path_388" data-name="Path 388" d="M6165.838,1743.613c15.662,19.4,84.12,36.417,146.992,24.416,50.869-9.71,97.368-44.66,113.905-65.108,18.154-22.448,3.07-50.35-21.55-81.386-24.6-31.01-59.353-64.831-92.355-59.683-27.264,4.252-49.45,14.242-86.2,59.683S6149.265,1723.088,6165.838,1743.613Z" transform="translate(-6162.024 -1561.329)" />
+                        </svg>
+                        <img className="img-res image2" src='/images/about/Mask Group 4.svg'/>
                         </div>
                         
                         <p className="profile-pic-font" style={{marginTop:"10px"}} >Mariam Mohamed</p>
                         <p className="profile-pic-light-font" style={{marginTop:"-15px"}} >Business developer</p>
                         </div>
                         <div className="col-sm-4">
-                        <div className="d-flex justify-content-center">
-                        <img className="img-res" src='/images/about/Mask Group 5.svg'/>
+                        <div className="d-flex flex-row justify-content-center parent avatar-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="272.719" height="210.699" viewBox="0 0 272.719 210.699" >
+                        <path id="Path_388" data-name="Path 388" d="M6165.838,1743.613c15.662,19.4,84.12,36.417,146.992,24.416,50.869-9.71,97.368-44.66,113.905-65.108,18.154-22.448,3.07-50.35-21.55-81.386-24.6-31.01-59.353-64.831-92.355-59.683-27.264,4.252-49.45,14.242-86.2,59.683S6149.265,1723.088,6165.838,1743.613Z" transform="translate(-6162.024 -1561.329)" />
+                        </svg>
+                        <img className="img-res image2" src='/images/about/Mask Group 5.svg'/>
                         </div>
                         <p className="profile-pic-font" style={{marginTop:"10px"}} >Ganna Adnan</p>
                         <p className="profile-pic-light-font" style={{marginTop:"-15px"}} >Business developer</p>
                         </div>
                         <div className="col-sm-4">
-                        <div className="d-flex justify-content-center">
-                        <img className="img-res" src='/images/about/Mask Group 6.svg'/>
+                        <div className="d-flex flex-row justify-content-center parent avatar-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="272.719" height="210.699" viewBox="0 0 272.719 210.699" >
+                        <path id="Path_388" data-name="Path 388" d="M6165.838,1743.613c15.662,19.4,84.12,36.417,146.992,24.416,50.869-9.71,97.368-44.66,113.905-65.108,18.154-22.448,3.07-50.35-21.55-81.386-24.6-31.01-59.353-64.831-92.355-59.683-27.264,4.252-49.45,14.242-86.2,59.683S6149.265,1723.088,6165.838,1743.613Z" transform="translate(-6162.024 -1561.329)" />
+                        </svg>
+                        <img className="img-res image2" src='/images/about/Mask Group 6.svg'/>
+                        
                         </div>
                         <p className="profile-pic-font" style={{marginTop:"10px"}} >Sama Alshareef</p>
                         <p className="profile-pic-light-font" style={{marginTop:"-15px"}} >Frontend developer</p>
                         </div>
                         <div className="col-sm-6">
-                        <div className="d-flex justify-content-center">
-                        <img className="img-res" src='/images/about/Mask Group 7.svg'/>
+                        <div className="d-flex flex-row justify-content-center parent avatar-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="272.719" height="210.699" viewBox="0 0 272.719 210.699" >
+                        <path id="Path_388" data-name="Path 388" d="M6165.838,1743.613c15.662,19.4,84.12,36.417,146.992,24.416,50.869-9.71,97.368-44.66,113.905-65.108,18.154-22.448,3.07-50.35-21.55-81.386-24.6-31.01-59.353-64.831-92.355-59.683-27.264,4.252-49.45,14.242-86.2,59.683S6149.265,1723.088,6165.838,1743.613Z" transform="translate(-6162.024 -1561.329)" />
+                        </svg>
+                        <img className="img-res image2" src='/images/about/Mask Group 7.svg'/>
                         </div>
                         <p className="profile-pic-font text-center" style={{marginTop:"10px"}} >Mina Ezzat</p>
                         <p className="profile-pic-light-font text-center" style={{marginTop:"-15px"}} >CTO</p>
                         </div>
                         <div className="col-sm-6">
-                        <div className="d-flex justify-content-center">
-                        <img className="img-res" src='/images/about/Mask Group 8.svg'/>
+                        <div className="d-flex flex-row justify-content-center parent avatar-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="272.719" height="210.699" viewBox="0 0 272.719 210.699" >
+                        <path id="Path_388" data-name="Path 388" d="M6165.838,1743.613c15.662,19.4,84.12,36.417,146.992,24.416,50.869-9.71,97.368-44.66,113.905-65.108,18.154-22.448,3.07-50.35-21.55-81.386-24.6-31.01-59.353-64.831-92.355-59.683-27.264,4.252-49.45,14.242-86.2,59.683S6149.265,1723.088,6165.838,1743.613Z" transform="translate(-6162.024 -1561.329)" />
+                        </svg>
+                        <img className="img-res image2" src='/images/about/Mask Group 8.svg'/>
                         </div>
                         <p className="profile-pic-font" style={{marginTop:"10px"}} >Ibrahem Reiad</p>
                         <p className="profile-pic-light-font" style={{marginTop:"-15px"}} >UX/UI designer</p>
                         </div>
                             
-                   
+                        
                 </div>
                
             </div>
