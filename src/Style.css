@@ -517,3 +517,23 @@ a:link {
    
   
   }
+
+.chat-box{
+    max-width:169px;
+    max-height: 74px;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #2D62FC1A;
+    border-radius: 10px;
+    opacity: 1;
+}
+.bot-font{
+    vertical-align: center;
+    text-align: left;
+    font-family:"Montserrat-Light";
+    letter-spacing: -0.29px;
+    opacity: 1;
+    font-size: 0.911vw;
+    
+}

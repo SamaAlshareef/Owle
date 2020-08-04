@@ -15,10 +15,20 @@ class ForgetPass extends Component {
                 <div className="row  d-flex align-items-center" style={{marginTop:"161px"}}>
                     <div className="col-sm-6">
                         <img className="img-res" src="./images/forgetpass/332 [Converted].svg"/>
+                        <div className='d-flex align-items-end' style={{marginTop:'80px'}}>
+                            <img width= '44px'height ='44px' className='img-res' src='./images/home/Mask Group 3.svg'/>
+                            <div className='d-flex align-items-center'>
+                            <div className='chat-box' style={{marginLeft:'20px'}}>
+                                <p className='bot-font' >Hi I'm <strong>Owle Bot</strong>  and click on me if you need any help</p>
+                            </div>
+                            </div>
+                           
+                            </div>
                     </div>
                     <div className="col-sm-6">
                     <div className="d-flex justify-content-center">
                         <img className="img-res" src="./images/forgetpass/Mask Group 1.svg" />
+                        
                     </div>
                         <p className="login-title" style={{marginTop:"30px"}}>Forget password</p>
                             <form >
