@@ -56,14 +56,14 @@ class Navbar extends Component {
                             </div>
                         </div>
                         <div className="d-flex flex-row">
-                                <a className="slider-btn" style={{marginTop:'-5px'}}>Get Start</a>
+                                <a className="btn btn-default slider-btn" style={{marginTop:'-10px'}}>Get Start</a>
                                 <p><i className="arrow right"></i></p>
                                 <p><i className="arrow right"></i></p>
                         </div>
                         
                     </div>
                 </div>
-                <div className ="row home-content-prop" style={{marginTop:'250px'}}>
+                <div className ="row home-content-prop" style={{marginTop:'115px'}}>
                     <div className = "col-sm-4">
                         <p className="header-font2">Build E-commerce without code</p>
                         <div className="row">
@@ -72,7 +72,7 @@ class Navbar extends Component {
                             </div>
                         </div>
                         <div className="d-flex flex-row">
-                                <a className="btn btn-default slider-btn" style={{marginTop:'-5px'}}>Start now</a>
+                                <a className="btn btn-default slider-btn" style={{marginTop:'-10px'}}>Start now</a>
                                 <p><i className="arrow right"></i></p>
                                 <p><i className="arrow right"></i></p>
                         </div>
@@ -93,7 +93,7 @@ class Navbar extends Component {
                             </div>
                         </div>
                         <div className="d-flex flex-row">
-                                <a className="btn btn-default slider-btn" style={{marginTop:'-5px'}}>Learn more</a>
+                                <a className="btn btn-default slider-btn" style={{marginTop:'-10px'}}>Learn more</a>
                                 <p><i className="arrow right"></i></p>
                                 <p><i className="arrow right"></i></p>
                         </div>  
@@ -109,7 +109,7 @@ class Navbar extends Component {
                             </div>
                         </div>
                         <div className="d-flex flex-row">
-                                <a className="btn btn-default slider-btn" style={{marginTop:'-5px'}}>Learn more</a>
+                                <a className="btn btn-default slider-btn" style={{marginTop:'-10px'}}>Learn more</a>
                                 <p><i className="arrow right"></i></p>
                                 <p><i className="arrow right"></i></p>
                         </div>
@@ -282,8 +282,8 @@ class Navbar extends Component {
                   
                       </div>
                       </div>  
-                    <div className='col-sm-3 '>
-                    <form >
+                    <div className='col-sm-3'>
+                    <form>
                             <div class="form-group d-flex justify-content-start">
                             <div class="fake-input">
                                 <input type="name" className="form-control" id="exampleInputEmail1"  placeholder="Name"/>

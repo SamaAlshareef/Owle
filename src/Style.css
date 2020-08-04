@@ -1,6 +1,6 @@
 .nav-font{
     text-align: right;
-    font-size: 18px;
+    font-size: 1.172vw;
     font-family:"Montserrat-Medium";
     letter-spacing: -0.38px;
     color: #000000;
@@ -19,7 +19,7 @@
 }
 .header-font{
     text-align: left;
-    font-size: 64px;
+    font-size: 4.167vw;
     font-family: "Montserrat-Bold";
     letter-spacing: 0px;
     color: #000000;
@@ -27,7 +27,7 @@
 }
 .header-font2{
     text-align: left;
-    font-size: 50px;
+    font-size: 3.255vw;
     font-family: "Montserrat-Bold";
     letter-spacing: 0px;
     color: #000000;
@@ -46,7 +46,7 @@
 }
 .slider-content-font{
     text-align: left;
-    font-size: 18px;
+    font-size: 1.172vw;
     font-family: "Montserrat-Regular";
     letter-spacing: 0px;
     color: #000000;
@@ -55,7 +55,7 @@
 }
 .slider-btn{
     text-align: left;
-    font-size: 20px;
+    font-size: 1.302vw;
     font-family: "Montserrat-Medium";
     letter-spacing: 0px;
     color: #000000;
@@ -144,7 +144,7 @@ opacity: 1;
     margin-top: 35px;
     margin-left: 5px;
     text-align: left;
-    font-size: 16px;
+    font-size: 1.042vw;
     font-family:"Montserrat-Regular" ;
     letter-spacing: 0px;
     color: #00000080;
@@ -153,7 +153,7 @@ opacity: 1;
     margin-left: 25px;
     margin-bottom: 40px;
     text-align: left;
-    font-size: 20px;
+    font-size:1.302vw;
     font: "Montserrat-Medium";
     letter-spacing: 0px;
     color: #575757;
@@ -181,7 +181,7 @@ opacity: 1;
 }
 .card-btn-font{
     text-align: center;
-    font-size: 20px;
+    font-size: 1.302vw;
     font-family: "Montserrat-Medium";
     letter-spacing: 0px;
     color: #FFFFFF;
@@ -190,16 +190,16 @@ opacity: 1;
 .card-rot-text{
         transform: rotate(270deg);
         -webkit-transform: rotate(270deg);
-        color:#189AFE;
-        font-family: "Montserrat-Light";
-        font-size: 45px;
+        color:#e8f5ff;
+        font-family: "Montserrat-Bold";
+        font-size: 1.953vw;
         margin-top: 70px;
         padding-bottom: 40px;
         
 }
 .card-header-font{
     text-align: center;
-    font-size: 64px;
+    font-size: 4.167vw;
     font-family: "Montserrat-Bold";
     /* color: #189AFE; */
     background: -webkit-linear-gradient(#189AFE, #2D62FC);
@@ -216,7 +216,7 @@ opacity: 1;
 .footer-title-font{
     margin-top: 40px;
     text-align: left;
-    font-size: 20px;
+    font-size: 1.302vw;
     font-family: "Montserrat-Medium";
     letter-spacing: -0.42px;
     color: #FFFFFF;
@@ -224,7 +224,7 @@ opacity: 1;
 }
 .footer-content-font{
     text-align: left;
-    font-size: 18px;
+    font-size: 1.172vw;
     font-family: "Montserrat-Regular";
     letter-spacing: -0.38px;
     color: #FFFFFF;
@@ -262,7 +262,7 @@ a:link {
     text-align: left;
     margin-left: 10px;
    
-    font-size: 18px;
+    font-size: 1.172vw;
     font-family: "Montserrat-Regular";
     letter-spacing: -0.38px;
     color: #FFFFFF;
@@ -314,7 +314,7 @@ a:link {
 .logWith{
     
     text-align: center;
-    font-size: 16px;
+    font-size: 1.042vw;
     font-family: "Montserrat-Medium";
     letter-spacing: 0px;
     color: #000000;
@@ -331,7 +331,7 @@ a:link {
 }
 .comments-font{
     text-align: left;
-    font-size: 18px;
+    font-size: 1.172vw;
     font-family: "Montserrat-Medium";
     letter-spacing: 0px;
     color: #000000;
@@ -339,16 +339,16 @@ a:link {
 }
 .about-list-font{
     text-align: left;
-    font-size: 18px;
+    font-size: 1.042vw;
     font-family: "Montserrat-Medium";
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 .textbox-font{
     text-align: center;
-    font-size: 20px;
+    font-size: 1.302vw;
     font-family: "Montserrat-Medium";
     letter-spacing: 0px;
     color: #FFFFFF;
@@ -363,13 +363,14 @@ a:link {
 .slider-bg-img{
     background-image:  url('./Path 9@2x.png');
     width: 100%;
+    background-position: 50% 50%;
     height: auto;
     background-size: cover;
     position: absolute;
 }
 .about-content-font{
     text-align: center;
-    font-size: 20px;
+    font-size: 1.302vw;
     font-family: "Montserrat-Regular";
     letter-spacing: 0px;
     color: #000000;
@@ -392,7 +393,7 @@ a:link {
 }
 .profile-pic-font{
     text-align: center;
-    font-size: 18px;
+    font-size: 1.172vw;
     font-family: "Montserrat-Medium";
     letter-spacing: 0px;
     color: #000000;
@@ -400,7 +401,7 @@ a:link {
 }
 .profile-pic-light-font{
     text-align: center;
-    font-size: 16px;
+    font-size:1.042vw;
     font-family: "Montserrat-Light";
     letter-spacing: 0px;
     color: #000000;
@@ -414,7 +415,7 @@ a:link {
 }
 .register-now-font{
     text-align: left;
-    font-size: 20px;
+    font-size: 1.302vw;
     font-family:"Montserrat-Medium";
     letter-spacing: 0px;
     color: #000000;
@@ -422,13 +423,12 @@ a:link {
 }
 .home-bg-img{
     background-image: url('./BlueShapeCombined.png');
-    background-size: 1054px 972px;
-    /* background-size:contain; */
+    background-size: 59% 24%;
+    
+    object-fit: cover;
     background-repeat: no-repeat;
-    /* width: 200px; */
     background-position: right top;
-    /* width: 100%;
-    height: auto; */
+   
 }
 @media only screen and (max-width: 320px) {
     /* styles for narrow screens */

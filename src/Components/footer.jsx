@@ -55,7 +55,7 @@ class Footer extends Component {
                        <p className="footer-content-font"  >Copyright © 2010-2020 All rights reserved.</p>
                        <div className="ml-auto">
                             <div className="language-box d-flex flex-row align-self-center" ><p className="lang-text">English</p>
-                            <div className="d-flex align-items-center" style={{marginLeft:'15px'}}>
+                            <div className="d-flex align-items-center" style={{marginLeft:'5px'}}>
                             <img className="arrow-down" height="9px" width="15px" src='./images/home/down-arrow-2.png'/>
                             </div>
                             

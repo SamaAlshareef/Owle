@@ -54,7 +54,7 @@ class AboutUs extends Component {
                     </div>
                     <div className='col-sm-5 d-flex flex-column'>
                         
-                        <p className="header-font">Our service to make everything better</p>
+                        <p className="header-font" style={{fontSize:'2.930vw'}}>Our service to make everything better</p>
                         <p className="slider-content-font">More power more stability, every thing with us is very easy, we will help you to take your business to the next level</p>
                         
                         <div className="d-flex justify-content-start">
@@ -84,17 +84,32 @@ class AboutUs extends Component {
                     </div>
                     <div className="col-sm-6">
                         <p className="about-content-font">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita gubergren</p>
-                        <p className="about-list-font">Takimata sanctus est Lorem ipsum</p>
-                        <p className="about-list-font">Lorem ipsum Takimata sanctus est</p>
-                        <p className="about-list-font">Stet clita kasd gubergren</p>
-                        <p className="about-list-font">Dolore magna aliquyam erat</p>
+                       
+                        <div className='d-flex flex-row'>
+                        <p><i className="arrow right"></i></p>
+                        <p className="about-list-font" style={{marginLeft:'10px'}}>Takimata sanctus est Lorem ipsum</p>
+                        </div>
+                        <div className='d-flex flex-row'>
+                        <p><i className="arrow right"></i></p>
+                        <p className="about-list-font" style={{marginLeft:'10px'}}>Lorem ipsum Takimata sanctus est</p>
+                        </div>
+                        <div className='d-flex flex-row'>
+                        <p><i className="arrow right"></i></p>
+                        <p className="about-list-font" style={{marginLeft:'10px'}}>Stet clita kasd gubergren</p>
+                        </div>
+                        <div className='d-flex flex-row'>
+                        <p><i className="arrow right"></i></p>
+                        <p className="about-list-font" style={{marginLeft:'10px'}}>Dolore magna aliquyam erat</p>
+                        </div>
+                       
+                       
                         <div className="row">
                             <div className="col-sm-3 ">
-                                <img className="img-res about-box-container svg"  height="67px" width="67px" src='./images/about/project (1).svg'/>
+                                <img className=" about-box-container"  height="67px" width="67px" src='./images/about/project (1).svg'/>
                                 <p className="about-list-font">Performance</p>
                            </div>
                             <div className="col-sm-3 ">
-                                <img className="img-res about-box-container"  height="64px" width="64px" src='./images/about/hair.svg'/>
+                                <img className=" about-box-container"  height="64px" width="64px" src='./images/about/hair.svg'/>
                                 <p className="about-list-font">Easy control</p>
                             </div>
                             <div className="col-sm-3 ">
