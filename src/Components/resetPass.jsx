@@ -18,26 +18,37 @@ class ResetPass extends Component {
                         
                     </div>
                     <div className="col-sm-6">
-                    <div className="d-flex justify-content-center">
+                    <div className="d-flex justify-content-center" style={{marginBottom:"35px"}}>
                         <img className="img-res" src="./images/forgetpass/Mask Group 1.svg" />
                     </div>
-                        <p className="login-title" style={{marginTop:"30px"}}>Forget password</p>
+                        <p className="login-title" >Forget password</p>
                             <form >
-                            <div class="form-group d-flex justify-content-center">
-                            <div class="fake-input">
-                                <input type="password" className="form-control" id="exampleInputEmail1"  placeholder="New password"/>
-                                <img src='./images/icons/Icon feather-key.svg'/>   
+                            <div class="form-group d-flex justify-content-center" style={{marginTop:'41px'}}>
+                             <div class="fake-input">
+                                <input type="password" className="form-control placeholder-text" style={{paddingLeft:'15px'}} id="exampleInputEmail1" name="New password" placeholder="New password"
+                                value={this.state.password} onChange={this.onChange}/>
+                               
+                                <img height='18px' width='19px' src='./images/icons/Icon feather-key.svg'/> 
+                                
+                                  
                             </div>
                             </div>
-                            <div class="form-group d-flex justify-content-center">
+                            <div class="form-group d-flex justify-content-center"  style={{marginTop:'31px'}}>
                             <div class="fake-input">
-                                <input type="password" className="form-control" id="exampleInputEmail1"  placeholder="Confirm password"/>
-                                <img src='./images/icons/Icon feather-key.svg'/>   
+                                <input type="password" className="form-control placeholder-text" style={{paddingLeft:'15px'}} id="exampleInputEmail1" name="Confirm password" placeholder="Confirm password"
+                                value={this.state.password} onChange={this.onChange}/>
+                               
+                                <img height='18px' width='19px' src='./images/icons/Icon feather-key.svg'/> 
+                                
+                                  
                             </div>
                             </div>
                            
-                            <div className="d-flex flex-column align-items-center">
-                            <button type="submit" className="btn btn-primary login-btn textbox-font">Reset Password</button>   
+                            
+
+                            <div className="d-flex flex-column align-items-center"  style={{marginTop:'41px'}}  >
+                            <button type="submit" className="btn btn-primary login-btn">
+                                <p className=' login-btn-font '>Reset Password </p> </button> 
                             </div>                  
                             </form>
                            
