@@ -88,7 +88,7 @@ class Login extends Component {
                     
                 </div>
                
-                <div className="row border ">
+                <div className="row ">
                     <div className='col-sm-6'>
 
                     </div>
