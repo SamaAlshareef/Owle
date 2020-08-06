@@ -334,7 +334,7 @@ class Navbar extends Component {
                     <div className='col-sm-6'>
 
                     </div>
-                      <div className='col-sm-6 d-flex border'>
+                      <div className='col-sm-6 d-flex'>
                       <form  style={{position:'absolute', marginTop:'51px', marginLeft:'40px'}}>
                             <div className="form-group" >
                           
