@@ -452,7 +452,7 @@ a:link {
 }
 .profile-pic-font{
     text-align: center;
-    font-size: 1.172vw;
+    font-size: 20px;
     font-family: "Montserrat-Medium";
     letter-spacing: 0px;
     color: #000000;
@@ -489,9 +489,7 @@ a:link {
     background-position: right top;
    
 }
-@media only screen and (max-width: 320px) {
-    /* styles for narrow screens */
-}
+
 .no-border {
     border: 0;
     box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
@@ -687,6 +685,9 @@ hr{
     }
     .about-header-font{
         font-size: 35px;
+    }
+    .home-content-prop{
+        padding-left: 50px;
     }
     
   }

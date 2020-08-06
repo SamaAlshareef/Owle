@@ -321,18 +321,20 @@ class Navbar extends Component {
 
                
            
-            <div className="row no-gutters" style={{marginTop:'150px'}}>
+            <div className="row  d-flex align-items-center no-gutters" style={{marginTop:'150px'}}>
                     <div className="col-sm-12 d-flex flex-column  justify-content-center  ">
                             <p className="card-header-font" style={{marginTop:'157px'}}>Contact Us</p>
 
                     </div>
-                    <div className='col-sm-12 d-flex justify-content-center map-bg-img' >
-                    {/* <img className='img-res  border' height='478px' width='1166px' style={{position:'relative',borderRadius: '20px'}} src='./images/home/map.png'/> */}
-                 
-                  <form className='' style={{position:'absolute', marginTop:'51px', marginLeft:'500px'}}>
+                    <div className='col-sm-12 d-flex map-bg-img' >
+                    <div className='col-sm-6'>
+
+                    </div>
+                      <div className='col-sm-6 d-flex'>
+                      <form className='' style={{position:'absolute', marginTop:'51px', marginLeft:'40px'}}>
                             <div class="form-group" >
                             <div class="fake-input">
-                                <input type="trxt" className="form-control placeholder-text" style={{paddingLeft:'15px'}} id="exampleInputEmail1" aria-describedby="emailHelp" name="name" placeholder="Enter name" value={this.state.email}
+                                <input type="text" className="form-control placeholder-text" style={{paddingLeft:'15px'}} id="exampleInputEmail1" aria-describedby="emailHelp" name="name" placeholder="Enter name" value={this.state.email}
                                   onChange={this.onChange}/>
                                   
                             </div>
@@ -360,6 +362,10 @@ class Navbar extends Component {
                           
                             </div>                  
                             </form>
+                    </div>
+                  
+                 
+                  
                  
                     
                             
