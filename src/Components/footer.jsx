@@ -35,7 +35,7 @@ class Footer extends Component {
                        <p className="footer-title-font">SOCIAL MEDIA</p>
                        <div className="d-flex flex-row">
                        <a href=""><img className="img-res" style={{marginRight:"10px"}} src="./images/home/facebook.png"/></a>
-                        <a href=""><img className="img-res" style={{marginRight:"10px"}} src="./images/home/linkedin.png"/></a>
+                        <a href=""><img className="img-res"  style={{marginRight:"10px",backgroundSize:'50% 50%', backgroundColor:'#ffffff'}} src="./images/icons/linkedin.png"/></a>
                         <a href=""> <img className="img-res" style={{marginRight:"10px"}}src="./images/home/instagram-sketched.png"/></a>
                         <a href=""><img className="img-res" style={{marginRight:"10px"}}src="./images/home/twitter.png"/></a>
                         </div>
