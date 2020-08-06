@@ -13,9 +13,9 @@ class Navbar extends Component {
         return (
            <React.Fragment>
             <div className="container-fluid home-bg-img">  
-            <div className="row home-content-prop">
+            <div className="row home-content-prop no-gutters">
                 <div className="col-sm-1 justify-content-center">
-                    <div className='row no-gutter'>
+                    <div className='row no-gutters'>
                     <div className='d-flex flex-row'>
                     <img width='28px' height='28px' style={{marginTop:'31px', marginRight:'5px', marginLeft:'25px'}} src="/images/home/mask.svg"/>
                     <a className="logo-font" style={{color:'#000000', paddingLeft:'1px'}} href="#">OWLE</a>
@@ -99,7 +99,7 @@ class Navbar extends Component {
                         <img className="img-prop" src="./images/home/Group 1182@2x.png"/>
                     </div>
                 </div>
-                <div className ="row home-content-prop" style={{marginTop:'183px', marginRight:'144px'}}>
+                <div className ="row home-content-prop no-gutters" style={{marginTop:'183px', marginRight:'144px'}}>
                     <div className = "col-sm-7">
                        <img className="img-prop" width='644px' height='407px' src="./images/home/channels@2x.png"/>
                     </div>
@@ -121,7 +121,7 @@ class Navbar extends Component {
                     </div>
                 </div>
                
-                <div className ="row home-content-prop" style={{marginTop:'206px'}}>
+                <div className ="row home-content-prop no-gutters" style={{marginTop:'206px'}}>
                     <div className = "col-sm-5">
                         <p className="header-font2">Ads with us will be easy just clicks</p>
                         <div className="row">
