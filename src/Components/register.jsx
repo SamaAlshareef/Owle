@@ -86,14 +86,21 @@ class Register extends Component {
             <div className="container-fluid ">
                 <div className="row  d-flex align-items-center ">
                     <div className="col-sm-6 no-gutters">
-                        <img className="img-res" src="./images/register/2844298.svg"/>
+                        
                         
                     </div>
-                    <div className="col-sm-6">
-                    <div className="d-flex justify-content-center" >
+                    <div className="col-sm-6 d-flex justify-content-center" style={{marginTop:'26px'}}>
+                   
                         <img className="img-res"  src="./images/register/Mask Group 1.svg" />
                     </div>
-                        <p className="login-title" style={{paddingTop:"30px"}}>Welcome in our world</p>
+                </div>
+                    <div className='row  d-flex align-items-start'>
+                      <div className='col-sm-6'>
+                      <img className="img-res" src="./images/register/2844298.svg"/>
+                      </div>
+
+                      <div className='col-sm-6'>
+                      <p className="login-title" style={{paddingTop:"30px"}}>Welcome in our world</p>
                             <form  onSubmit={this.handleSubmit}>
                             <div class="form-group d-flex justify-content-center" style={{marginTop:'43px'}}>
                             <div class="fake-input">
@@ -146,13 +153,36 @@ class Register extends Component {
                                 <p className=' login-btn-font '>Register </p> </button>
                             </div>                  
                             </form>
+                            <div style={{marginTop:'35px'}}>
+                            <p className="logWith">Register With</p>
+                                       
+                                  
+                                       <div style={{paddingTop:'22px'}} className="d-flex flex-row justify-content-center">
+                                       <div className="with-cont d-flex justify-content-center">
+                                       <a href=""><img src="./images/login/facebook (4).svg"/></a>
+                                       
+                                       </div>
+                                       <div className="with-cont d-flex justify-content-center" style={{marginRight:'40px', marginLeft:'40px'}}>
+                                       <Link to={'/googleSign'} href=""><img src="./images/login/brands-and-logotypes (2).svg"/></Link>
+                                       </div>
+                                       <div className="with-cont d-flex justify-content-center">
+                                       <a href=""><img src="./images/login/company.svg"/></a>
+                                       </div>
+                                       </div> 
+                                       <div className="d-flex justify-content-center flex-row" style={{marginTop:"40px"}}>
+                                       <p className="forget-pass-font">Already have account?</p>
+                                       <Link  to={'/login'} onClick={()=>this.handleClick}><p className="forget-pass-font" style={{color:"#2D62FC"}}> Click here to login</p></Link>       
+                                       </div> 
+                            </div>
+                            
+                          </div>
                     </div>
-                    
-                </div>
+                        
+                   
                
-                <div className="row">
+                <div className="row  d-flex align-items-center">
                     <div className="col-sm-6">
-                    <div className='d-flex align-items-end' style={{marginTop:'80px', marginLeft:'100px'}}>
+                    <div className='d-flex align-items-end' style={{marginLeft:'100px'}}>
                     <div className='chatbot-bg'> 
                                 <img style={{padding:'8px'}} className='img-res' src='./images/home/Mask Group 3.svg'/>
                                 </div>
@@ -165,29 +195,7 @@ class Register extends Component {
                            
                             </div>
                     </div>
-                                    <div className="col-sm-6">
-                                        <div >
-                                        <p className="logWith">Register With</p>
-                                        </div>
-                                  
-                                    <div style={{paddingTop:'22px'}} className="d-flex flex-row justify-content-center">
-                                    <div className="with-cont d-flex justify-content-center">
-                                    <a href=""><img src="./images/login/facebook (4).svg"/></a>
-                                    
-                                    </div>
-                                    <div className="with-cont d-flex justify-content-center" style={{marginRight:'40px', marginLeft:'40px'}}>
-                                    <Link to={'/googleSign'} href=""><img src="./images/login/brands-and-logotypes (2).svg"/></Link>
-                                    </div>
-                                    <div className="with-cont d-flex justify-content-center">
-                                    <a href=""><img src="./images/login/company.svg"/></a>
-                                    </div>
-                                    </div> 
-                                    <div className="d-flex justify-content-center flex-row" style={{marginTop:"40px"}}>
-                                    <p className="forget-pass-font">Already have account?</p>
-                                    <Link  to={'/login'} onClick={()=>this.handleClick}><p className="forget-pass-font" style={{color:"#2D62FC"}}> Click here to login</p></Link>       
-                                    </div> 
-                                </div>
-                                </div>
+              </div>
             </div>
          );
     }

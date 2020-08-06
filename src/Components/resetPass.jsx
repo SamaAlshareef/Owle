@@ -12,16 +12,22 @@ class ResetPass extends Component {
     render() { 
         return ( 
             <div className="container">
-                <div className="row  d-flex align-items-center" style={{marginTop:"161px"}}>
+                <div className="row  d-flex align-items-center" >
                     <div className="col-sm-6">
-                        <img className="img-res" src="./images/forgetpass/332 [Converted].svg"/>
+                      
                         
                     </div>
-                    <div className="col-sm-6">
-                    <div className="d-flex justify-content-center" style={{marginBottom:"35px"}}>
+                    <div className="col-sm-6 d-flex justify-content-center" style={{marginTop:"161px"}}>
+                  
                         <img className="img-res" src="./images/forgetpass/Mask Group 1.svg" />
                     </div>
-                        <p className="login-title" >Forget password</p>
+                    </div>
+                    <div className='row d-flex align-items-center'>
+                    <div className='col-sm-6'>
+                    <img className="img-res" src="./images/forgetpass/332 [Converted].svg"/>
+                    </div>
+                    <div className='col-sm-6'>
+                    <p className="login-title" >Forget password</p>
                             <form >
                             <div class="form-group d-flex justify-content-center" style={{marginTop:'41px'}}>
                              <div class="fake-input">
@@ -51,14 +57,17 @@ class ResetPass extends Component {
                                 <p className=' login-btn-font '>Reset Password </p> </button> 
                             </div>                  
                             </form>
+                        </div>
+                        </div>
+                        
                            
-                    </div>
+                   
                     
-                </div>
+               
                
                 <div className="row">
                     <div className="col-sm-6">
-                    <div className='d-flex align-items-end' style={{marginTop:'80px'}}>
+                    <div className='d-flex align-items-end' style={{marginTop:'12px'}}>
                             <img width= '44px'height ='44px' className='img-res' src='./images/home/Mask Group 3.svg'/>
                             <div className='d-flex align-items-center'>
                             <div className='chat-box' style={{marginLeft:'20px'}}>

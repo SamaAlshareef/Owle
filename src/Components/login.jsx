@@ -88,20 +88,9 @@ class Login extends Component {
                     
                 </div>
                
-                <div className="row">
-                    <div className="col-sm-6">
-                    <div className='d-flex align-items-end' style={{marginTop:'120px'}}>
-                                <div className='chatbot-bg'> 
-                                <img style={{padding:'8px'}} className='img-res' src='./images/home/Mask Group 3.svg'/>
-                                </div>
-                            
-                            <div className='d-flex align-items-center'>
-                            <div className='chat-box' style={{marginLeft:'20px'}}>
-                                <p className='bot-font' >Hi I'm <strong>Owle Bot</strong>  and click on me if you need any help</p>
-                            </div>
-                            </div>
-                           
-                            </div>
+                <div className="row border ">
+                    <div className='col-sm-6'>
+
                     </div>
                                     <div className="col-sm-6 " style={{marginTop:'40px'}}>
                                     <p className="logWith">Login With</p>
@@ -123,7 +112,22 @@ class Login extends Component {
                                     <Link to={'/register'} onClick={()=>this.navigateTo('/register')}><p className="forget-pass-font" style={{color:"#2D62FC"}}>  Join Owle now</p></Link>      
                                     </div> 
                                 </div>
+                                <div className="col-sm-6" >
+                                <div className='d-flex align-items-end' >
+                                <div className='chatbot-bg'> 
+                                <img style={{padding:'8px'}} className='img-res' src='./images/home/Mask Group 3.svg'/>
                                 </div>
+                            
+                            <div className='d-flex align-items-center'>
+                            <div className='chat-box' style={{marginLeft:'20px'}}>
+                                <p className='bot-font' >Hi I'm <strong>Owle Bot</strong>  and click on me if you need any help</p>
+                            </div>
+                            </div>
+                           
+                            </div>
+                    </div>
+                                </div>
+                               
             </div>
          );
     }
