@@ -321,7 +321,7 @@ class Navbar extends Component {
 
                
            
-            <div className="row no-gutters border   " style={{marginTop:'150px'}}>
+            <div className="row no-gutters" style={{marginTop:'150px'}}>
                     <div className="col-sm-12 d-flex flex-column  justify-content-center  ">
                             <p className="card-header-font" style={{marginTop:'157px'}}>Contact Us</p>
 
