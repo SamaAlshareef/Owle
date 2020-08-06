@@ -18,7 +18,7 @@ class Navbar extends Component {
                     <div className='row no-gutter'>
                     <div className='d-flex flex-row'>
                     <img width='28px' height='28px' style={{marginTop:'31px', marginRight:'5px', marginLeft:'25px'}} src="/images/home/mask.svg"/>
-                    <a className="logo-font" style={{color:'#000000'}} href="#">OWLE</a>
+                    <a className="logo-font" style={{color:'#000000', paddingLeft:'1px'}} href="#">OWLE</a>
                     </div>
                    </div>
                     
@@ -43,31 +43,35 @@ class Navbar extends Component {
                 
                 </div>
                 <div className="row home-content-prop no-gutters" style={{paddingTop:'189px'}}>
-                <div className="col-sm-4">
+                <div className="col-sm-5">
                         <p className="header-font">Everything is simple</p>
-                      
-                            <p className="slider-content-font">in just few minutes you will build your website and choose a lot of channels</p>
+                      <div className='row'>
+                          <div className='col-sm-9'>
+                          <p className="slider-content-font">in just few minutes you will build your website and choose a lot of channels</p>
+                          </div>
+                      </div>
                            
-                        <div className="d-flex" style={{marginTop:'35px'}}>
+                           
+                        <div className="d-flex btn-transitions" style={{marginTop:'35px'}}>
                                 <a href='url' className="slider-btn" color='#000000'>Get Start</a>
-                                <div className='d-flex flex-row'>
+                                <div className='d-flex flex-row' style={{ marginTop:'1px'}}>
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
                                 <p><i className="arrow right"></i></p>
                                 </div>
                                 
                         </div>
                         
-                            <div className='d-flex align-items-end' style={{marginTop:'120px'}}>
+                            <div className='d-flex align-items-center' style={{marginTop:'120px'}}>
                                 <div className='chatbot-bg'> 
-                                <img style={{padding:'8px'}} className='img-res' src='./images/home/Mask Group 3.svg'/>
+                                <img style={{padding:'8px', position:'absolute'}} className='img-res' src='./images/home/Mask Group 3.svg'/>
                                 </div>
                             
-                            <div className='d-flex align-items-center'>
-                            <div className='chat-box' style={{marginLeft:'20px'}}>
-                                <p className='bot-font' >Hi I'm <strong>Owle Bot</strong>  and click on me if you need any help</p>
-                            </div>
-                            </div>
-                           
+                                <div style={{position:'relative'}}  >
+                                <img  style={{marginLeft:'-20px'}} src='./images/icons/Union 1.svg'/>
+                                <div className='bot-font' >
+                                <p>Hi I'm <strong>Owle Bot</strong>  and click on me if you need any help</p>
+                                </div>
+                           </div>
                             </div>
                            
                         
@@ -75,23 +79,23 @@ class Navbar extends Component {
                     </div>
                 </div>
                 <div className ="row home-content-prop no-gutters" style={{marginTop:'191px'}}>
-                    <div className = "col-sm-4">
+                    <div className = "col-sm-5">
                         <p className="header-font2">Build E-commerce without code</p>
                         <div className="row">
-                            <div className="col-7">
-                            <p className="slider-content-font">in just few minutes you will build your website and choose a lot of channels</p>
+                            <div className="col-9">
+                            <p className="slider-content-font">we will help you to build your ecommerce with just few steps it will be responsive for all devices so don't worry</p>
                             </div>
                         </div>
-                        <div className="d-flex" style={{marginTop:'35px'}}>
+                        <div className="d-flex btn-transitions " style={{marginTop:'35px'}}>
                                 <a href='url' className="slider-btn">Start now</a>
-                                <div className='d-flex flex-row' >
+                                <div className='d-flex flex-row' style={{ marginTop:'1px'}}>
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
                                 <p><i className="arrow right"></i></p>
                                 </div>
                                 
                         </div>
                     </div>
-                    <div className="col-sm-8 d-flex justify-content-center">
+                    <div className="col-sm-7 d-flex justify-content-center">
                         <img className="img-prop" src="./images/home/Group 1182@2x.png"/>
                     </div>
                 </div>
@@ -102,13 +106,13 @@ class Navbar extends Component {
                     <div className="col-sm-5">
                     <p className="header-font2">A lot of channels to sell more</p>
                         <div className="row">
-                            <div className="col-7">
+                            <div className="col-sm-10">
                             <p className="slider-content-font">you will get a lot of channels to sell your products like Facebook, Instagram and more and you can sync</p>
                             </div>
                         </div>
-                        <div className="d-flex" style={{marginTop:'35px'}}>
+                        <div className="d-flex btn-transitions" style={{marginTop:'35px'}}>
                                 <a href='url' className="slider-btn">Learn more</a>
-                                <div className='d-flex flex-row'>
+                                <div className='d-flex flex-row' style={{ marginTop:'1px'}}>
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
                                 <p><i className="arrow right"></i></p>
                                 </div>
@@ -118,23 +122,23 @@ class Navbar extends Component {
                 </div>
                
                 <div className ="row home-content-prop" style={{marginTop:'206px'}}>
-                    <div className = "col-sm-4">
+                    <div className = "col-sm-5">
                         <p className="header-font2">Ads with us will be easy just clicks</p>
                         <div className="row">
-                            <div className="col-7">
+                            <div className="col-10">
                             <p className="slider-content-font">need marketing don't worry we care about this and we have a lot of places to make ads for you to sell more</p>
                             </div>
                         </div>
-                        <div className="d-flex" style={{marginTop:'35px'}}>
+                        <div className="d-flex btn-transitions" style={{marginTop:'35px'}}>
                                 <a href='url' className="slider-btn">Learn more</a>
-                                <div className='d-flex flex-row'>
+                                <div className='d-flex flex-row' style={{ marginTop:'1px'}}>
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
                                 <p><i className="arrow right"></i></p>
                                 </div>
                                 
                         </div>
                     </div>
-                    <div className="col-sm-8 d-flex justify-content-center">
+                    <div className="col-sm-7 d-flex justify-content-center">
                         <img className="img-prop" src="./images/home/ads@2x.png"/>
                     </div>
                 </div>
@@ -323,35 +327,35 @@ class Navbar extends Component {
            
             <div className="row  d-flex align-items-center no-gutters" style={{marginTop:'150px'}}>
                     <div className="col-sm-12 d-flex flex-column  justify-content-center  ">
-                            <p className="card-header-font" style={{marginTop:'157px'}}>Contact Us</p>
+                            <p className="card-header-font" style={{marginTop:'157px', marginBottom:'50px'}}>Contact Us</p>
 
                     </div>
                     <div className='col-sm-12 d-flex map-bg-img' >
                     <div className='col-sm-6'>
 
                     </div>
-                      <div className='col-sm-6 d-flex'>
-                      <form className='' style={{position:'absolute', marginTop:'51px', marginLeft:'40px'}}>
-                            <div class="form-group" >
-                            <div class="fake-input">
-                                <input type="text" className="form-control placeholder-text" style={{paddingLeft:'15px'}} id="exampleInputEmail1" aria-describedby="emailHelp" name="name" placeholder="Enter name" value={this.state.email}
+                      <div className='col-sm-6 d-flex border'>
+                      <form  style={{position:'absolute', marginTop:'51px', marginLeft:'40px'}}>
+                            <div className="form-group" >
+                          
+                                <input type="text" className="send-form-control placeholder-text" style={{paddingLeft:'15px' }} id="exampleInputEmail1" aria-describedby="emailHelp" name="name" placeholder="Enter name" value={this.state.email}
                                   onChange={this.onChange}/>
                                   
+                            
                             </div>
-                            </div>
-                            <div class="form-group d-flex justify-content-center" style={{marginTop:'25px'}}>
-                            <div class="fake-input">
-                                <input type="text" className="form-control placeholder-text" style={{paddingLeft:'15px'}} id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Enter email" value={this.state.email}
+                            <div class="form-group " style={{marginTop:'25px'}}>
+                            
+                                <input type="text" className="send-form-control placeholder-text" style={{paddingLeft:'15px', width:'450px'}} id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Enter email" value={this.state.email}
                                   onChange={this.onChange}/>
                                  
+                          
                             </div>
-                            </div>
-                            <div class="form-group d-flex justify-content-center" style={{marginTop:'25px'}}>
-                            <div class="fake-input">
-                                <input type="text" className="form-control2 placeholder-text" style={{paddingLeft:'15px', height:'121px'}} id="exampleInputEmail1" aria-describedby="emailHelp" name="request" placeholder="Type your request" value={this.state.email}
+                            <div class="form-group " style={{marginTop:'25px'}}>
+                            
+                                <input type="text" className="form-control2 placeholder-text" style={{paddingLeft:'15px', height:'121px', width:'450px'}} id="exampleInputEmail1" aria-describedby="emailHelp" name="request" placeholder="Type your request" value={this.state.email}
                                   onChange={this.onChange}/>
                                 
-                            </div>
+                          
                             </div>
                             
                            

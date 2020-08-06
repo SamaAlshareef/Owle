@@ -67,13 +67,17 @@ class ResetPass extends Component {
                
                 <div className="row">
                     <div className="col-sm-6">
-                    <div className='d-flex align-items-end' style={{marginTop:'12px'}}>
-                            <img width= '44px'height ='44px' className='img-res' src='./images/home/Mask Group 3.svg'/>
-                            <div className='d-flex align-items-center'>
-                            <div className='chat-box' style={{marginLeft:'20px'}}>
-                                <p className='bot-font' >Hi I'm <strong>Owle Bot</strong>  and click on me if you need any help</p>
-                            </div>
-                            </div>
+                    <div className='d-flex align-items-center' style={{marginTop:'12px'}}>
+                    <div className='chatbot-bg'> 
+                                <img style={{padding:'8px',position:'absolute'}} className='img-res' src='./images/home/Mask Group 3.svg'/>
+                                </div>
+                            
+                                <div style={{position:'relative'}}  >
+                                <img  style={{marginLeft:'-20px'}} src='./images/icons/Union 1.svg'/>
+                                <div className='bot-font' >
+                                <p>Hi I'm <strong>Owle Bot</strong>  and click on me if you need any help</p>
+                                </div>
+                           </div>
                            
                             </div>
                  </div>

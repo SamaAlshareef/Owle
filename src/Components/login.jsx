@@ -96,33 +96,33 @@ class Login extends Component {
                                     <p className="logWith">Login With</p>
                                    
                                     <div style={{paddingTop:'22px'}} className="d-flex flex-row justify-content-center">
-                                    <div className="with-cont d-flex justify-content-center">
+                                    <div className="with-cont d-flex justify-content-center align-items-center">
                                     <a href=""><img src="./images/login/facebook (4).svg"/></a>
-                                    
                                     </div>
-                                    <div className="with-cont d-flex justify-content-center" style={{marginRight:'40px', marginLeft:'40px'}}>
+                                    <div className="with-cont d-flex justify-content-center  align-items-center" style={{marginRight:'40px', marginLeft:'40px'}}>
                                     <Link to={'/googleSign'} href=""><img src="./images/login/brands-and-logotypes (2).svg"/></Link>
                                     </div>
-                                    <div className="with-cont d-flex justify-content-center">
+                                    <div className="with-cont d-flex justify-content-center  align-items-center">
                                     <a href=""><img src="./images/login/company.svg"/></a>
                                     </div>
                                     </div> 
                                     <div className="d-flex justify-content-center flex-row" style={{marginTop:"40px"}}>
-                                    <p className="forget-pass-font">Don't have account yet?</p>
-                                    <Link to={'/register'} onClick={()=>this.navigateTo('/register')}><p className="forget-pass-font" style={{color:"#2D62FC"}}>  Join Owle now</p></Link>      
+                                    <p className="join-font">Don't have account yet?</p>
+                                    <Link to={'/register'} onClick={()=>this.navigateTo('/register')}><p className="join-font" style={{color:"#2D62FC"}}>  Join Owle now</p></Link>      
                                     </div> 
                                 </div>
                                 <div className="col-sm-6" >
-                                <div className='d-flex align-items-end' >
+                                <div className='d-flex align-items-center' >
                                 <div className='chatbot-bg'> 
-                                <img style={{padding:'8px'}} className='img-res' src='./images/home/Mask Group 3.svg'/>
+                                <img style={{padding:'8px',position:'absolute'}} className='img-res' src='./images/home/Mask Group 3.svg'/>
                                 </div>
                             
-                            <div className='d-flex align-items-center'>
-                            <div className='chat-box' style={{marginLeft:'20px'}}>
-                                <p className='bot-font' >Hi I'm <strong>Owle Bot</strong>  and click on me if you need any help</p>
-                            </div>
-                            </div>
+                                <div style={{position:'relative'}}  >
+                                <img  style={{marginLeft:'-20px'}} src='./images/icons/Union 1.svg'/>
+                                <div className='bot-font' >
+                                <p>Hi I'm <strong>Owle Bot</strong>  and click on me if you need any help</p>
+                                </div>
+                           </div>
                            
                             </div>
                     </div>

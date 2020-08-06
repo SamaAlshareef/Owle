@@ -12,12 +12,12 @@ class AboutUs extends Component {
         return ( 
             <React.Fragment>
                  <div className="container-fluid" style={{backgroundColor:'#f4f7ff'}}>  
-            <div className="row  home-content-prop">
-                <div className="col-sm-1 d-flex justify-content-center">
+            <div className="row  home-content-prop " style={{marginLeft:'1px'}}>
+                <div className="col-sm-1 d-flex justify-content-center ">
                 <div className='row no-gutter'>
                     <div className='d-flex flex-row'>
-                    <img width='28px' height='28px' style={{marginTop:'31px', marginRight:'5px'}} src="/images/home/mask.svg"/>
-                    <a className="logo-font" style={{color:'#000000'}} href="#">OWLE</a>
+                    <img width='28px' height='28px' style={{marginTop:'31px',}} src="/images/home/mask.svg"/>
+                    <a className="logo-font" style={{color:'#000000', paddingLeft:'3px'}} href="#">OWLE</a>
                     </div>
                    </div>
                 </div>
@@ -51,9 +51,9 @@ class AboutUs extends Component {
                         <p className="about-header-font">Our service to make everything better</p>
                         <p className="slider-aboutContent-font" style={{paddingTop:'27px'}}>More power more stability, every thing with us is very easy, we will help you to take your business to the next level</p>
                         
-                        <div className="d-flex" style={{marginTop:'44px'}}>
+                        <div className="d-flex btn-transitions" style={{marginTop:'44px'}}>
                                 <a href='url' className="slider-btn">Register Now</a>
-                                <div className='d-flex flex-row'>
+                                <div className='d-flex flex-row' style={{ marginTop:'1px'}}>
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
                                 <p><i className="arrow right"></i></p>
                                 </div>
@@ -70,9 +70,10 @@ class AboutUs extends Component {
             <div className="container">
            
                 <div className="row">
-                    <div className="col-sm-12">
-                        <p className="card-header-font" style={{marginTop:'158px'}}>Why Us</p>
-                        <p className="about-content-font" style={{paddingTop:'50px'}}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>                                       
+                    <div className="col-sm-12" style={{marginTop:'150px'}}>
+                        <p className="card-header-font" >Why Us</p>
+                        <p className="about-content-font" style={{paddingTop:'50px'}}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p> 
+                        <p className="about-content-font" style={{paddingTop:'10px'}}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>                                       
                     </div>
                     <div className="col-sm-12" style={{marginTop:'150px'}}>
                         <p className="card-header-font">Our Service</p>
@@ -99,27 +100,27 @@ class AboutUs extends Component {
                        
                        
                         <div className="row" style={{marginTop:'40px'}}>
-                            <div className="col-sm-3 ">
+                            <div className="col-sm-3 d-flex flex-column align-items-center  ">
                                 <img className=" about-box-container" style={{padding:'12px'}} height="67px" width="67px" src='./images/about/project (1).svg'/>
-                                <p className="about-list-font">Performance</p>
+                                <p className="about-list-font" style={{paddingTop:'15px'}}>Performance</p>
                            </div>
-                            <div className="col-sm-3 ">
+                            <div className="col-sm-3 d-flex flex-column align-items-center">
                                 <img className=" about-box-container"  style={{padding:'12px'}} height="64px" width="64px" src='./images/about/hair.svg'/>
-                                <p className="about-list-font">Easy control</p>
+                                <p className="about-list-font" style={{paddingTop:'15px'}}>Easy control</p>
                             </div>
-                            <div className="col-sm-3 ">
-                                <div className="about-box-container">
+                            <div className="col-sm-3 d-flex flex-column align-items-center">
+                                <div className="about-box-container ">
                                 <img className="img-res "  style={{padding:'12px'}}  height="64px" width="64px" src='./images/about/billboard.svg'/>
                                 </div>
                                
-                                <p className="about-list-font">Billboard</p>
+                                <p className="about-list-font" style={{paddingTop:'15px'}}>Billboard</p>
                             </div>
-                            <div className="col-sm-3 ">
+                            <div className="col-sm-3 d-flex flex-column align-items-center">
                             <div className="about-box-container">
                             <img className="img-res"  style={{padding:'12px'}} height="64px" width="64px" src='./images/about/speaker.svg'/>
                                 </div>
                                 
-                                <p className="about-list-font">Marketing</p>
+                                <p className="about-list-font" style={{paddingTop:'15px'}}>Marketing</p>
                             </div>
                         </div>
                     </div>

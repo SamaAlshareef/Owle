@@ -12,30 +12,30 @@ class Footer extends Component {
                    <div className="row d-flex justify-content-around" style={{marginTop:"40px"}}>
                        <div className="col-sm-3" style={{ marginTop:'40px'}}>
                        <p className="footer-title-font">INFORMATION</p>
-                       <p><a className="footer-content-font" href="url">Plans & pricing</a></p>
-                       <p><a className="footer-content-font" href="url">About us</a></p>
-                       <p><a className="footer-content-font" href="url">Affiliate</a></p>
+                       <p style={{paddingBottom:'10px'}}><a className="footer-content-font" href="url">Plans & pricing</a></p>
+                       <p style={{paddingBottom:'10px'}}><a className="footer-content-font" href="url">About us</a></p>
+                       <p style={{paddingBottom:'10px'}}><a className="footer-content-font" href="url">Affiliate</a></p>
                        
                        </div>
                        <div className="col-sm-3" style={{ marginTop:'40px'}}>
                        <p className="footer-title-font">LEGAL</p>
-                       <p><a className="footer-content-font" href="url">Terms & conditions</a></p>
-                       <p><a className="footer-content-font" href="url">Privacy policy</a></p>
-                       <p><a className="footer-content-font" href="url">Copyright information</a></p>
-                       <p><a className="footer-content-font" href="url">Cookies policy</a></p>
+                       <p style={{paddingBottom:'10px'}}><a className="footer-content-font" href="url">Terms & conditions</a></p>
+                       <p style={{paddingBottom:'10px'}}><a className="footer-content-font" href="url">Privacy policy</a></p>
+                       <p style={{paddingBottom:'10px'}}><a className="footer-content-font" href="url">Copyright information</a></p>
+                       <p style={{paddingBottom:'10px'}}><a className="footer-content-font" href="url">Cookies policy</a></p>
                        
                        </div>
                        <div className="col-sm-3" style={{ marginTop:'40px'}}>
                        <p className="footer-title-font">HELP</p>
-                       <p><a className="footer-content-font" href="url">Support</a></p>
-                       <p><a className="footer-content-font" href="url">Contact</a></p>
+                       <p style={{paddingBottom:'10px'}}><a className="footer-content-font" href="url">Support</a></p>
+                       <p style={{paddingBottom:'10px'}}><a className="footer-content-font" href="url">Contact</a></p>
                        
                        </div>
                        <div className="col-sm-3" style={{ marginTop:'40px'}}>
                        <p className="footer-title-font">SOCIAL MEDIA</p>
                        <div className="d-flex flex-row">
                        <a href=""><img className="img-res" style={{marginRight:"10px"}} src="./images/home/facebook.png"/></a>
-                        <a href=""><img className="img-res"  style={{marginRight:"10px",backgroundSize:'50% 50%', backgroundColor:'#ffffff'}} src="./images/icons/linkedin.png"/></a>
+                        <a href=""><img className="img-res" width='25px' height='25px'  style={{marginRight:"10px"}} src="./images/icons/linkedin.png"/></a>
                         <a href=""> <img className="img-res" style={{marginRight:"10px"}}src="./images/home/instagram-sketched.png"/></a>
                         <a href=""><img className="img-res" style={{marginRight:"10px"}}src="./images/home/twitter.png"/></a>
                         </div>
@@ -60,7 +60,7 @@ class Footer extends Component {
 
                        <div class="btn-group ml-auto" style={{paddingTop:'30px',  marginRight:'100px'}}>
                        <button type="button" className="language-box d-flex" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <div style={{marginTop:'4px'}}>
+                          <div style={{marginTop:'4px', paddingLeft:'10px'}}>
                           <p className='lang-text' >English</p> 
                           </div>
                           <img className="arrow-down" height="9px" width="15px" src='./images/home/down-arrow-2.png'/>
