@@ -326,7 +326,7 @@ class Navbar extends Component {
                             <p className="card-header-font" style={{marginTop:'157px'}}>Contact Us</p>
 
                     </div>
-                    <div className=' col-sm-12 d-flex justify-content-center map-bg-img' >
+                    <div className='col-sm-12 d-flex justify-content-center map-bg-img' >
                     {/* <img className='img-res  border' height='478px' width='1166px' style={{position:'relative',borderRadius: '20px'}} src='./images/home/map.png'/> */}
                  
                   <form className='' style={{position:'absolute', marginTop:'51px', marginLeft:'500px'}}>
