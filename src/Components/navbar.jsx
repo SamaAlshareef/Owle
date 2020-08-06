@@ -49,7 +49,7 @@ class Navbar extends Component {
                             <p className="slider-content-font">in just few minutes you will build your website and choose a lot of channels</p>
                            
                         <div className="d-flex" style={{marginTop:'35px'}}>
-                                <a href='url' className="slider-btn">Get Start</a>
+                                <a href='url' className="slider-btn" color='#000000'>Get Start</a>
                                 <div className='d-flex flex-row' style={{marginTop:'5px'}}>
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
                                 <p><i className="arrow right"></i></p>
