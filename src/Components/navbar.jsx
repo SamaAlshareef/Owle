@@ -50,7 +50,7 @@ class Navbar extends Component {
                            
                         <div className="d-flex" style={{marginTop:'35px'}}>
                                 <a href='url' className="slider-btn" color='#000000'>Get Start</a>
-                                <div className='d-flex flex-row' style={{marginTop:'5px'}}>
+                                <div className='d-flex flex-row'>
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
                                 <p><i className="arrow right"></i></p>
                                 </div>
@@ -84,7 +84,7 @@ class Navbar extends Component {
                         </div>
                         <div className="d-flex" style={{marginTop:'35px'}}>
                                 <a href='url' className="slider-btn">Start now</a>
-                                <div className='d-flex flex-row' style={{marginTop:'5px'}}>
+                                <div className='d-flex flex-row' >
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
                                 <p><i className="arrow right"></i></p>
                                 </div>
@@ -108,7 +108,7 @@ class Navbar extends Component {
                         </div>
                         <div className="d-flex" style={{marginTop:'35px'}}>
                                 <a href='url' className="slider-btn">Learn more</a>
-                                <div className='d-flex flex-row' style={{marginTop:'5px'}}>
+                                <div className='d-flex flex-row'>
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
                                 <p><i className="arrow right"></i></p>
                                 </div>
@@ -127,7 +127,7 @@ class Navbar extends Component {
                         </div>
                         <div className="d-flex" style={{marginTop:'35px'}}>
                                 <a href='url' className="slider-btn">Learn more</a>
-                                <div className='d-flex flex-row' style={{marginTop:'5px'}}>
+                                <div className='d-flex flex-row'>
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
                                 <p><i className="arrow right"></i></p>
                                 </div>

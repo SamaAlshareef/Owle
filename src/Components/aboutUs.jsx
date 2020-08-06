@@ -53,7 +53,7 @@ class AboutUs extends Component {
                         
                         <div className="d-flex" style={{marginTop:'44px'}}>
                                 <a href='url' className="slider-btn">Register Now</a>
-                                <div className='d-flex flex-row' style={{marginTop:'3px'}}>
+                                <div className='d-flex flex-row'>
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
                                 <p><i className="arrow right"></i></p>
                                 </div>
