@@ -44,7 +44,7 @@ class AboutUs extends Component {
                 </div>
             </div>
             <div className=' bg-color-about' >
-                <div className='row align-items-center  home-content-prop'> 
+                <div className='row align-items-center no-gutters home-content-prop'> 
                    
                     <div className='col-sm-5 d-flex flex-column' style={{marginBottom:'120px'}} >
                         
@@ -62,7 +62,7 @@ class AboutUs extends Component {
                       
                         
                     </div>
-                    <div className='col-sm-7'   >
+                    <div className='col-sm-7 ' >
                         <img width='609px' className='img-res' src='./images/about/2PicturesCombined.png'/>
                     </div>
                 </div>
