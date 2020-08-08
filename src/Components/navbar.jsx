@@ -17,8 +17,8 @@ class Navbar extends Component {
                 <div className="col-sm-1 justify-content-center">
                     <div className='row no-gutters'>
                     <div className='d-flex flex-row'>
-                    <img width='28px' height='28px' style={{marginTop:'31px', marginRight:'5px', marginLeft:'25px'}} src="/images/home/mask.svg"/>
-                    <a className="logo-font" style={{color:'#000000', paddingLeft:'1px'}} href="#">OWLE</a>
+                    <img width='28px' height='28px' style={{marginTop:'31px'}} src="/images/home/mask.svg"/>
+                    <a className="logo-font" style={{color:'#000000', paddingLeft:'5px'}} href="#">OWLE</a>
                     </div>
                    </div>
                     
@@ -42,17 +42,17 @@ class Navbar extends Component {
                 </div>
                 
                 </div>
-                <div className="row home-content-prop no-gutters" style={{paddingTop:'189px'}}>
+                <div className="row home-content-prop no-gutters" style={{marginTop:'100px'}}>
                 <div className="col-sm-5">
                         <p className="header-font">Everything is simple</p>
-                      <div className='row'>
-                          <div className='col-sm-9'>
+                      <div className='row no-gutters'>
+                          <div className='col-sm-9' style={{paddingTop:'20px'}}>
                           <p className="slider-content-font">in just few minutes you will build your website and choose a lot of channels</p>
                           </div>
                       </div>
                            
                            
-                        <div className="d-flex btn-transitions" style={{marginTop:'35px'}}>
+                        <div className="d-flex btn-transitions" style={{paddingTop:'35px'}}>
                                 <a href='url' className="slider-btn" color='#000000'>Get Start</a>
                                 <div className='d-flex flex-row' style={{ marginTop:'1px'}}>
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
@@ -61,7 +61,7 @@ class Navbar extends Component {
                                 
                         </div>
                         
-                            <div className='d-flex align-items-center' style={{marginTop:'120px'}}>
+                            <div className='d-flex align-items-center' style={{marginTop:'30px'}}>
                                 <div className='chatbot-bg'> 
                                 <img style={{padding:'8px', position:'absolute'}} className='img-res' src='./images/home/Mask Group 3.svg'/>
                                 </div>
@@ -78,15 +78,15 @@ class Navbar extends Component {
                        
                     </div>
                 </div>
-                <div className ="row home-content-prop no-gutters" style={{marginTop:'191px'}}>
+                <div className ="row home-content-prop no-gutters" style={{marginTop:'175px'}}>
                     <div className = "col-sm-5">
                         <p className="header-font2">Build E-commerce without code</p>
                         <div className="row">
-                            <div className="col-9">
+                            <div className="col-9" style={{paddingTop:'20px'}}>
                             <p className="slider-content-font">we will help you to build your ecommerce with just few steps it will be responsive for all devices so don't worry</p>
                             </div>
                         </div>
-                        <div className="d-flex btn-transitions " style={{marginTop:'35px'}}>
+                        <div className="d-flex btn-transitions " style={{paddingTop:'35px'}}>
                                 <a href='url' className="slider-btn">Start now</a>
                                 <div className='d-flex flex-row' style={{ marginTop:'1px'}}>
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
@@ -99,18 +99,18 @@ class Navbar extends Component {
                         <img className="img-prop" src="./images/home/Group 1182@2x.png"/>
                     </div>
                 </div>
-                <div className ="row home-content-prop no-gutters" style={{marginTop:'183px', marginRight:'144px'}}>
+                <div className ="row home-content-prop no-gutters" style={{marginTop:'150px', marginRight:'140px'}}>
                     <div className = "col-sm-7">
-                       <img className="img-prop" width='644px' height='407px' src="./images/home/channels@2x.png"/>
+                       <img className="img-prop" width='614px' height='344px' src="./images/home/channels@2x.png"/>
                     </div>
                     <div className="col-sm-5">
                     <p className="header-font2">A lot of channels to sell more</p>
                         <div className="row">
-                            <div className="col-sm-10">
+                            <div className="col-sm-10" style={{paddingTop:'20px'}}>
                             <p className="slider-content-font">you will get a lot of channels to sell your products like Facebook, Instagram and more and you can sync</p>
                             </div>
                         </div>
-                        <div className="d-flex btn-transitions" style={{marginTop:'35px'}}>
+                        <div className="d-flex btn-transitions" style={{paddingTop:'35px'}}>
                                 <a href='url' className="slider-btn">Learn more</a>
                                 <div className='d-flex flex-row' style={{ marginTop:'1px'}}>
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
@@ -121,15 +121,15 @@ class Navbar extends Component {
                     </div>
                 </div>
                
-                <div className ="row home-content-prop no-gutters" style={{marginTop:'206px'}}>
+                <div className ="row home-content-prop no-gutters" style={{marginTop:'178px'}}>
                     <div className = "col-sm-5">
                         <p className="header-font2">Ads with us will be easy just clicks</p>
                         <div className="row">
-                            <div className="col-10">
+                            <div className="col-10" style={{paddingTop:'20px'}}>
                             <p className="slider-content-font">need marketing don't worry we care about this and we have a lot of places to make ads for you to sell more</p>
                             </div>
                         </div>
-                        <div className="d-flex btn-transitions" style={{marginTop:'35px'}}>
+                        <div className="d-flex btn-transitions" style={{paddingTop:'35px'}}>
                                 <a href='url' className="slider-btn">Learn more</a>
                                 <div className='d-flex flex-row' style={{ marginTop:'1px'}}>
                                 <p><i className="arrow right" style={{marginLeft:'10px'}}></i></p>
@@ -143,7 +143,7 @@ class Navbar extends Component {
                     </div>
                 </div>
                 
-                <div className="row d-flex justify-content-center home-content-prop no-gutters" style={{marginTop:'188px'}}>
+                <div className="row d-flex justify-content-center home-content-prop no-gutters" style={{marginTop:'140px'}}>
                     <div className="col-sm-12 d-flex justify-content-center">
                     <p className="card-header-font">Our Plans</p>
                     </div>
@@ -326,11 +326,11 @@ class Navbar extends Component {
                
            
             <div className="row  d-flex align-items-center no-gutters" style={{marginTop:'150px'}}>
-                    <div className="col-sm-12 d-flex flex-column  justify-content-center  ">
-                            <p className="card-header-font" style={{marginTop:'157px', marginBottom:'50px'}}>Contact Us</p>
+                    <div className="col-sm-12 d-flex flex-column  justify-content-center" style={{ marginBottom:'50px'}}>
+                            <p className="card-header-font" >Contact Us</p>
 
                     </div>
-                    <div className='col-sm-12 d-flex map-bg-img' >
+                    <div className='col-sm-12 d-flex map-bg-img'  style={{ marginBottom:'75px'}}>
                     <div className='col-sm-6'>
 
                     </div>
