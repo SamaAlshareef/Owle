@@ -124,8 +124,8 @@ class AboutUs extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-6" style={{marginTop:'60px'}}>
-                        <img className="img-res" src="./images/about/undraw_goals_w8tw.svg"/>
+                    <div className="col-sm-6" style={{paddingTop:'50px', paddingLeft:'150px'}}>
+                        <img className="" src="./images/about/undraw_goals_w8tw.svg"/>
                     </div>
                     <div className="col-sm-12" style={{marginTop:"140px", marginBottom:'90px'}}>
                         <p className="card-header-font" > Our Team</p>

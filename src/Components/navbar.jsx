@@ -12,7 +12,7 @@ class Navbar extends Component {
     render() { 
         return (
            <React.Fragment>
-            <div className="container-fluid home-bg-img">  
+            <div className="container-fluid home-bg-img" style={{position:'relative'}}>  
             <div className="row home-content-prop no-gutters">
                 <div className="col-sm-1 justify-content-center">
                     <div className='row no-gutters'>
@@ -76,6 +76,10 @@ class Navbar extends Component {
                            
                         
                        
+                    </div>
+                  
+                    <div className='phone-img'  style={{ position:'absolute', marginTop:'-40px'}}>
+                        <img width='399px' height='503px' src='./images/icons/iphone x 1@2x.png'/>
                     </div>
                 </div>
                 <div className ="row home-content-prop no-gutters" style={{marginTop:'175px'}}>
@@ -335,24 +339,24 @@ class Navbar extends Component {
 
                     </div>
                       <div className='col-sm-6 d-flex'>
-                      <form  style={{position:'absolute', marginTop:'51px', marginLeft:'40px'}}>
+                      <form className=' col-sm-6' style={{position:'absolute', marginTop:'51px', marginLeft:'40px'}}>
                             <div className="form-group" >
                           
-                                <input type="text" className="send-form-control placeholder-text" style={{paddingLeft:'15px' }} id="exampleInputEmail1" aria-describedby="emailHelp" name="name" placeholder="Enter name" value={this.state.email}
+                                <input type="text" className="send-form-control placeholder-text" style={{paddingLeft:'15px',width:'475px' }} id="exampleInputEmail1" aria-describedby="emailHelp" name="name" placeholder="Enter name" value={this.state.email}
                                   onChange={this.onChange}/>
                                   
                             
                             </div>
-                            <div class="form-group " style={{marginTop:'25px'}}>
+                            <div class="form-group" style={{marginTop:'25px'}}>
                             
-                                <input type="text" className="send-form-control placeholder-text" style={{paddingLeft:'15px', width:'450px'}} id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Enter email" value={this.state.email}
+                                <input type="text" className="send-form-control placeholder-text" style={{ width:'475px'}} id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Enter email" value={this.state.email}
                                   onChange={this.onChange}/>
                                  
                           
                             </div>
                             <div class="form-group " style={{marginTop:'25px'}}>
                             
-                                <input type="text" className="form-control2 placeholder-text" style={{paddingLeft:'15px', height:'121px', width:'450px'}} id="exampleInputEmail1" aria-describedby="emailHelp" name="request" placeholder="Type your request" value={this.state.email}
+                                <input type="text" className="form-control2 placeholder-text" style={{paddingLeft:'15px', height:'121px', width:'475px'}} id="exampleInputEmail1" aria-describedby="emailHelp" name="request" placeholder="Type your request" value={this.state.email}
                                   onChange={this.onChange}/>
                                 
                           

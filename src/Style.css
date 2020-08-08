@@ -493,10 +493,18 @@ a:link {
     opacity: 1;
 }
 .home-bg-img{
-    background-image: url('./home-bg2.png');
-    /* background-size: 58% 18.3%; */
+    background-image: url('./home-bg4.png');
+    /* background-size: 290px 394px; */
     padding:0px !important;
-
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: right top;
+   
+}
+.phone-bg-img{
+    background-image: url('./iphone x 1@2x.png');
+    /* background-size: 290px 394px; */
+    padding:0px !important;
     background-repeat: no-repeat;
     background-position: right top;
    
@@ -745,6 +753,10 @@ hr{
     
 }
 
+.phone-img{
+padding-left:400px ;
+}
+
 @media (max-width: 600px){
     .header-font{
         font-size: 34px;  
@@ -762,18 +774,26 @@ hr{
     .home-content-prop{
         padding-left: 50px;
     }
+    .phone-img{
+        padding-left: 0px;
+    }
     
   }
-  @media (max-width: 600px){
-    
-    
-    
-  }
+  
   @media screen and (min-width: 1366) {
     .header-font2,
     .header-font{
         font-size:74px;  
     }
-    
+
+    .phone-img{
+        padding-left:'600px';
+    }
   }
-    
+ 
+
+@media screen  and  (min-width:1500px){
+    .phone-img{
+        padding-left:'600px';
+    }
+}
