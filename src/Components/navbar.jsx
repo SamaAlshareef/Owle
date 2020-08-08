@@ -61,7 +61,7 @@ class Navbar extends Component {
                                 
                         </div>
                         
-                            <div className='d-flex align-items-center' style={{marginTop:'30px'}}>
+                            <div className='d-flex align-items-center' style={{marginTop:'100px'}}>
                                 <div className='chatbot-bg'> 
                                 <img style={{padding:'8px', position:'absolute'}} className='img-res' src='./images/home/Mask Group 3.svg'/>
                                 </div>
