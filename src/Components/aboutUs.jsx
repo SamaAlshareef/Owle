@@ -62,15 +62,15 @@ class AboutUs extends Component {
                       
                         
                     </div>
-                    <div className='col-sm-7 ' >
+                    <div className='col-sm-7 ' style={{paddingLeft:'100px', paddingRight:'100px'}} >
                         <img width='609px' className='img-res' src='./images/about/2PicturesCombined.png'/>
                     </div>
                 </div>
             </div>
-            <div className="container">
+            <div className="container-fluid" style={{paddingLeft:'100px', paddingRight:'100px'}}>
            
                 <div className="row">
-                    <div className="col-sm-12" style={{marginTop:'130px'}}>
+                    <div className="col-sm-12" style={{marginTop:'80px'}}>
                         <p className="card-header-font" >Why Us</p>
                         <p className="about-content-font" style={{paddingTop:'50px'}}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p> 
                         <p className="about-content-font" style={{paddingTop:'10px'}}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>                                       
@@ -78,7 +78,7 @@ class AboutUs extends Component {
                     <div className="col-sm-12" style={{marginTop:'150px'}}>
                         <p className="card-header-font">Our Service</p>
                     </div>
-                    <div className="col-sm-6" style={{marginTop:'25px'}}>
+                    <div className="col-sm-6 " style={{ marginTop:'25px'}}>
                         <p className="about-content-font" style={{textAlign:'left'}}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita gubergren</p>
                        
                         <div className='d-flex flex-row' style={{marginTop:'25px'}}>
@@ -124,8 +124,8 @@ class AboutUs extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-6" style={{paddingTop:'50px', paddingLeft:'150px'}}>
-                        <img className="" src="./images/about/undraw_goals_w8tw.svg"/>
+                    <div className="col-sm-6 " style={{paddingTop:'50px', paddingLeft:'80px'}}>
+                        <img  src="./images/about/undraw_goals_w8tw.svg"/>
                     </div>
                     <div className="col-sm-12" style={{marginTop:"140px", marginBottom:'90px'}}>
                         <p className="card-header-font" > Our Team</p>
