@@ -34,17 +34,17 @@ class Footer extends Component {
                        <div className="col-sm-3" style={{ marginTop:'40px'}}>
                        <p className="footer-title-font">SOCIAL MEDIA</p>
                        <div className="d-flex flex-row">
-                       <a href=""><img className="img-res" style={{marginRight:"10px"}} src="./images/home/facebook.png"/></a>
-                        <a href=""><img className="img-res" width='25px' height='25px'  style={{marginRight:"10px"}} src="./images/icons/linkedin.png"/></a>
-                        <a href=""> <img className="img-res" style={{marginRight:"10px"}}src="./images/home/instagram-sketched.png"/></a>
-                        <a href=""><img className="img-res" style={{marginRight:"10px"}}src="./images/home/twitter.png"/></a>
+                       <a href=""><img className="img-res" style={{marginRight:"10px"}} src="/images/home/facebook.png"/></a>
+                        <a href=""><img className="img-res" width='25px' height='25px'  style={{marginRight:"10px"}} src="/images/icons/linkedin.png"/></a>
+                        <a href=""> <img className="img-res" style={{marginRight:"10px"}}src="/images/home/instagram-sketched.png"/></a>
+                        <a href=""><img className="img-res" style={{marginRight:"10px"}}src="/images/home/twitter.png"/></a>
                         </div>
                         <div className="d-flex flex-row" style={{marginTop:"10px"}}>
                          
-                            <a href=""><img className="img-res" style={{marginRight:"10px"}} src="./images/home/youtube.png"/></a>
-                            <a href=""><img className="img-res" style={{marginRight:"10px"}} src="./images/home/youtube-1.png"/></a>
-                            <a href=""><img className="img-res" style={{marginRight:"10px"}}src="./images/home/youtube-2.png"/></a>
-                            <a href=""><img className="img-res" style={{marginRight:"10px"}}src="./images/home/twitter-1.png"/></a>
+                            <a href=""><img className="img-res" style={{marginRight:"10px"}} src="/images/home/youtube.png"/></a>
+                            <a href=""><img className="img-res" style={{marginRight:"10px"}} src="/images/home/youtube-1.png"/></a>
+                            <a href=""><img className="img-res" style={{marginRight:"10px"}}src="/images/home/youtube-2.png"/></a>
+                            <a href=""><img className="img-res" style={{marginRight:"10px"}}src="/images/home/twitter-1.png"/></a>
                         </div>
                        </div>
                    </div>
@@ -63,7 +63,7 @@ class Footer extends Component {
                           <div style={{marginTop:'4px', paddingLeft:'10px'}}>
                           <p className='lang-text' >English</p> 
                           </div>
-                          <img className="arrow-down" height="9px" width="15px" src='./images/home/down-arrow-2.png'/>
+                          <img className="arrow-down" height="9px" width="15px" src='/images/home/down-arrow-2.png'/>
                           
                            
                         </button>

@@ -34,7 +34,7 @@ class Navbar extends Component {
                     <Link to={'/'} className=" nav-font">Home <hr style={{marginTop:'-2px'}}></hr> </Link> <span className="sr-only">(current)</span>
                     <Link to={'/aboutUs'} className="nav-font"> About Us </Link>
                     <Link to={'/login'} className="nav-font"> Billboard </Link>
-                    <Link to={'/register'} className=" nav-font"> Blog </Link>
+                    <Link to={'/blog'} className=" nav-font"> Blog </Link>
                     <Link to={'/login'} className="nav-font"> Login </Link>
                     </div>
                 </div>
@@ -339,7 +339,7 @@ class Navbar extends Component {
 
                     </div>
                       <div className='col-sm-6 d-flex'>
-                      <form className=' col-sm-6' style={{position:'absolute', marginTop:'51px', marginLeft:'40px'}}>
+                      <form className=' col-sm-6' style={{ marginTop:'51px', marginLeft:'40px'}}>
                             <div className="form-group" >
                           
                                 <input type="text" className="send-form-control placeholder-text" style={{paddingLeft:'15px',width:'475px' }} id="exampleInputEmail1" aria-describedby="emailHelp" name="name" placeholder="Enter name" value={this.state.email}
@@ -349,7 +349,7 @@ class Navbar extends Component {
                             </div>
                             <div class="form-group" style={{marginTop:'25px'}}>
                             
-                                <input type="text" className="send-form-control placeholder-text" style={{ width:'475px'}} id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Enter email" value={this.state.email}
+                                <input type="text" className="send-form-control placeholder-text" style={{paddingLeft:'15px', width:'475px'}} id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Enter email" value={this.state.email}
                                   onChange={this.onChange}/>
                                  
                           

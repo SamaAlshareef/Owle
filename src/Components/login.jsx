@@ -36,7 +36,7 @@ class Login extends Component {
    
     render() { 
         if(this.state.loggedIn){
-            return <Redirect to='/admin'/>
+            return <Redirect to='/dashboard'/>
         }
         return ( 
             <div className="container">

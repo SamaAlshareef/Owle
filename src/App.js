@@ -13,6 +13,15 @@ import ResetPass from './Components/resetPass';
 import AboutUs from './Components/aboutUs';
 import Admin from './Components/admin';
 import GoogleLogin from 'react-google-login';
+import Dashboard from './Components/dashboard';
+import SalesManagement from './Components/salesManagement';
+import FilteredSales from './Components/filteredSales';
+import ProductEdit from './Components/ProductEdit';
+import ShippingManagement from './Components/shippingManagement';
+import OrderManagement from './Components/orderManagement';
+import Blog from './Components/blog';
+import BlogArticle from './Components/blogArticle';
+import Podcast from './Components/podcast';
 
 function App() {
   return (
@@ -25,7 +34,15 @@ function App() {
       <Route exact path="/aboutUs" component={AboutUs}/>
       <Route exact path="/admin" component={Admin}/>
       <Route exact path="/googleSign" component={GoogleLogin}/>
-     
+      <Route exact path="/dashboard" component={Dashboard}/>
+      <Route exact path="/sales-management" component={SalesManagement}/>
+      <Route exact path="/filteredSales" component={FilteredSales}/>
+      <Route exact path="/product-edit" component={ProductEdit}/>
+      <Route exact path="/shipping-suggestions" component={ShippingManagement}/>
+      <Route exact path="/order-management" component={OrderManagement}/>
+      <Route exact path="/blog" component={Blog}/>
+      <Route exact path="/blog/article" component={BlogArticle}/>
+      <Route exact path="/blog/podcast" component={Podcast}/>
     </React.Fragment>
   );
 }
